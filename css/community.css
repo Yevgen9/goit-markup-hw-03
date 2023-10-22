@@ -1,0 +1,3 @@
+.nav .list a.portfolio.current {
+  color: var(--accent-color);
+}
