@@ -50,7 +50,6 @@ span {
 /* навігація */
 .nav a {
   font-size: 14px;
-
   font-weight: 500;
   letter-spacing: 0.28px;
   word-wrap: break-word;
@@ -73,8 +72,6 @@ span {
 
 /* футер */
 .footer {
-  width: 1600px;
-  height: 252px;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.7;

@@ -3,8 +3,6 @@
 }
 /* герой */
 .hero {
-  width: 1600px;
-  height: 600px;
   background-color: var(--background-color);
   text-align: center;
 }
