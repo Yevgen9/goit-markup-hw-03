@@ -1,29 +1,170 @@
-.nav .list a.studio.current {
+.wrapper-nav .list a.link.current {
   color: var(--accent-color);
 }
-/* герой */
+
+/* ГЕРОЙ*/
+
 .hero {
   background-color: var(--background-color);
   text-align: center;
 }
+
 .hero .hero-title {
   color: white;
   font-size: 44px;
   padding-top: 200px;
+
+  margin-top: 0;
+  margin-bottom: 30px;
   font-weight: 900;
   text-transform: uppercase;
   line-height: 1.36;
   letter-spacing: 2.64px;
   word-wrap: break-word;
 }
-/* кнопка */
+
+/* КНОПКА */
+
 .button {
+  display: inline-block;
+  min-width: 216px;
+  text-align: center;
   color: var(--button-text-color);
   background-color: var(--accent-color);
   text-decoration: none;
+  padding: 10px 32px;
+  box-shadow: rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.9;
+  margin-bottom: 200px;
 }
 
-/* особливості */
-/* чим ми займаємося */
-/* наша команда */
+/* ОСОБЛИВОСТІ */
+
+.peculiarities {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 94px;
+}
+
+.peculiarities .peculiarities-list {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.peculiarities-list .peculiarities-item {
+  margin-right: 30px;
+}
+.peculiarities-list .peculiarities-item:last-child {
+  margin-right: 0;
+}
+
+.peculiarities-item {
+  display: inline-block;
+  width: 270px;
+}
+
+.peculiarities-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+.text {
+  margin: 0;
+}
+
+/* ЧИМ МИ ЗАЙМАЄМОСЯ */
+
+.whatarewedoing {
+  display: flex;
+  flex-direction: column;
+
+  width: 1200;
+  padding-top: 94px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.whatarewedoing-title {
+  margin: 0;
+  margin-bottom: 50px;
+
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+
+.whatarewedoing .whatarewedoing-list {
+  display: flex;
+
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.whatarewedoing-list .list-item {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.whatarewedoing-list .list-item:last-child {
+  margin-right: 0;
+}
+
+/* НАША КОМАНДА */
+
+.ourteam {
+  display: flex;
+  flex-direction: column;
+  
+  width: 1200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-left: 215px;
+
+  align-items: center;
+  justify-content: center;
+}
+.ourteam-title {
+  margin: 0;
+  padding-bottom: 50px;
+  padding-top: 94px;
+
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+ .ourteam-list {
+  display: flex;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.ourteam-list .list-item {
+  display: inline-block;
+  width: 270px;
+  margin-right: 30px;
+}
+
+.ourteam-list .list-item:last-child {
+  margin-right: 0;
+}
+
 
